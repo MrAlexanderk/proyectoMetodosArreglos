@@ -109,4 +109,5 @@ main{
 
 .tachado {
     text-decoration: line-through;
+    color: gray;
 }
