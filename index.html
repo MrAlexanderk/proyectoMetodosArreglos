@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Arreglos</title>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <main>
+        <div id="ToDoList">
+            <h1>TO DO List</h1>
+            <hr>
+            <p>Nueva Tarea</p>
+            <div class="ingreso-tarea">
+                <input id="input-descripcion" class="ingreso-item" placeholder="Ingresa la nueva tarea...">
+                <button class="agregar ingreso-item" id="boton-ingreso">Agregar</button>
+            </div>
+            <div class="info-horizontal informacion">
+                <div class="item alineado-izquierdo">
+                    <p>Total: <span id="info-total"></span></p>
+                    <p>Realizadas: <span id="info-realizadas"></span></p>
+                </div>
+                <div class="item">
+                    <div class="info-horizontal">
+                        <p class="item">ID</p>
+                        <p class="item">Tarea</p>
+                    </div>
+                    <div id="list-container">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
